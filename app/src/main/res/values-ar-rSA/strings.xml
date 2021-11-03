@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أشهر السنة</string>
+    <string name="month1">يناير</string>
+    <string name="month2">فبراير</string>
+    <string name="month3">مارس</string>
+    <string name="month4">ابريل</string>
+    <string name="month5">مايو</string>
+    <string name="month6">يونيو</string>
+    <string name="month7">يوليو</string>
+    <string name="month8">أغسطس</string>
+    <string name="month9">سبتمبر</string>
+    <string name="month10">أكتوبر</string>
+    <string name="month11">نوفمبر</string>
+    <string name="month12">ديسمبر</string>
+</resources>
