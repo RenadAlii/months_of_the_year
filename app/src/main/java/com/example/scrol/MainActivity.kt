@@ -16,11 +16,11 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
     // Initialize data.
     val myDataset = Datasource().loadMonths()
-    val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
-    recyclerView.adapter = ItemAdapter(this, myDataset)
+    var recyclerView = binding.recyclerView.adapter
+    recyclerView = ItemAdapter(this, myDataset)
 
     //needed to improve performance
-    recyclerView.setHasFixedSize(true)
+    binding.recyclerView.setHasFixedSize(true)
 }
 
 }
